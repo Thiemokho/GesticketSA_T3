@@ -89,8 +89,10 @@ margin-left: 300%;
 .Tableau {
  margin-top: 15px;
 position: relative;
-top: -350px;
+bottom: 400px;
+left: 50px;
 margin-left: 15%;
+color: #2b9595;
 }
 
 .Tableau th{
