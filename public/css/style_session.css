@@ -1,0 +1,109 @@
+body{
+  height: 800px;
+ margin-bottom: 10px;
+}
+
+.div1
+{
+	background-color: #2b9595;
+	width: 200px;
+	height: 620px;
+  } 
+
+
+
+.logo img
+{
+height: 100px;
+width: 200px;
+margin-left: 300%;
+}
+.vertical-menu {
+  width: 200px; 
+}
+
+.vertical-menu a {
+  background-color: #f4f9f9;
+  color: black; 
+  display: block; 
+  padding: 12px; 
+  text-decoration: none; 
+}
+
+.vertical-menu a:hover {
+  background-color: #f4f9f9; 
+}
+
+.vertical-menu a.active {
+  background-color: #2b9595;
+  color: white;
+  text-align: center;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #f4f9f9;
+  color: #2b9595;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  width: 200px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+    width: 170px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+.Tableau {
+ margin-top: 15px;
+position: relative;
+top: -350px;
+margin-left: 15%;
+}
+
+.Tableau th{
+  border: 1px solid black;
+  height: 20px;
+  border-collapse: collapse;
+  margin: 5px;
+  padding: 10px;
+
+
+ }
+ 
+
+
+
+
