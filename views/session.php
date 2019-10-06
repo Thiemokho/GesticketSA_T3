@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
   <meta charset="utf-8">
-  <title>GesticketSA_Table3</title>
+  <title>session</title>
   <link rel="stylesheet" href="../public/css/stylesession.css">
   <script src="script.js"></script>
 </head>
@@ -20,9 +20,9 @@
                       <div class="dropdown">
                       <button class="dropbtn" >session</button>
                       <div class="dropdown-content">
-                        <a href="formsession.html">Nouvel session</a>
-                        <a href="session.html">Liste des sessions</a>
-                        <a href="liste_utilisateurs.html">Liste des utilisateurs</a>
+                        <a href="session.php">Nouvel session</a>
+                        <a href="listeSession.php">Liste des sessions</a>
+                        <a href="listeUser.php">Liste des utilisateurs</a>
                       </div>
             </div>
                       
@@ -37,30 +37,36 @@
           
           
           <!-- formulaire -->
-          <form action="" method="post">
+          <form action="../controller/session.php" method="post">
               <div class="formulaire">
 
                 <label for="NOM" id="label1"> NOM</label>
-                <input type="text" id="input1">
+                <input type="text" name="nom" id="input1">
             
                 <label for="ANNEE" id="label2"> ANNEE</label>
-                <input type="ANNEE" id="input2" ><br>
+                <input type="text" name="annee" id="input2">
          
                 <label for="DATE DEBUT" id="label3"> DATE DEBUT</label>
-                <input type="DATE DEBUT" id="input3" ><br>
+                <input type="date" name="date_debut" id="input3">
 
                 <label for="DATE FIN" id="label4"> DATE FIN</label>
-                <input type="DATE FIN" id="input4" ><br>
+                <input type="date" name="date_fin" id="input4">
          
                 <label for="EFFECTIF TOTAL" id="label5"> EFFECTIF TOTAL</label>
-                <input type="EFFECTIF TOTAL" id="input5" ><br>
+                <input type="text" name="effectif" id="input5">
          
                 <div class="annuler"><input type="submit" value="Annuler" id="annuler"></div>
                 <div class="connexion1"><input type="submit" value="Connexion" id="connexion"></div>
+     </form>
 
+                  <!-- code php -->
+    <?php 
+        if(isset($_GET['erreur'])){
+             echo $_GET['erreur'];file:///var/www/html/Test_Ticket/views/session.php
 
-
-
+         }
+ 
+?>
     
 
   

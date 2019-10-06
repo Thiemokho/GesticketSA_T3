@@ -27,10 +27,14 @@ body
   	left:40%;
     text-align: center;
   }
-.trait
-{
 
-}
+  #tableau
+  {
+    position: absolute;
+    left: 25%;
+    width: 800px;
+    top: 25%;
+  }
 
 .Tableau
 {
@@ -46,6 +50,7 @@ tr
 	font-size: 20px;
 	color: #2b9595;
 }
+
 
 tr, th, td , th
 {

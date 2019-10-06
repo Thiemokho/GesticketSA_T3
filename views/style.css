@@ -52,13 +52,17 @@ h1
     font-family: Arial;
     font-size: 30px;
     margin-left: 30px;
+    position: relative;
+    top: 30px;
 }
 
 #input1
 {
     margin-left: 10px;
-    width: 50%;
+    width: 30%;
     height: 30px;
+    position: absolute;
+    top: 33%;
 }
 
 #label2
@@ -67,13 +71,18 @@ h1
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     margin-left: 30px;
+    position: relative;
+     top: 60px;
 }
 
 #input2
 {
     margin-top: 5%;
-    width: 50%;
+    margin-left: 1%;
+    width: 30%;
     height: 30px;
+    position: absolute;
+    top: 35%;
 }
 
 .icon1
@@ -81,7 +90,8 @@ h1
     margin-left: 108px;
     width:30px;
      height:30px;
-    
+     position: relative;
+     top: 30px;
 }
 
 
@@ -91,6 +101,8 @@ h1
     width:25px;
      height:25px;
      padding-right: 12px;
+     position: relative;
+     top: 60px;
 }
 
 
