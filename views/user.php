@@ -56,7 +56,7 @@
                 <input type="password" name="password" id="input5">
          
                 <div class="annuler"><input type="submit" value="Annuler" id="annuler"></div>
-                <div class="connexion1"><input type="submit" value="Envoyer" id="connexion"></div>
+                <div class="connexion1"><input type="submit" name="envoyer" value="Envoyer" id="connexion"></div>
      </form>
 
                   <!-- code php -->

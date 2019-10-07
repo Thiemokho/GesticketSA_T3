@@ -42,7 +42,7 @@
 
 <?php
      include_once('../controller/db_connect.php');
-           $query = $pdo->query("SELECT * FROM `user` ");
+           $query = $pdo->query("SELECT * FROM `users` ");
            $users= $query->fetchAll();
           // var_dump($users) ;
 
