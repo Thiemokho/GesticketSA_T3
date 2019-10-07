@@ -10,15 +10,17 @@
 
 	<a href="index.html" > <img src="../public/img/sonatel.png"  id="logo" >  </a>
 	<div class="div1">
-					<div class="vertical-menu">
-					  <a href="user.php" class="active">Utilisateurs</a>
-					  <div class="dropdown">
-					  <button class="dropbtn" >session</button>
-					  <div class="dropdown-content">
-							<a href="session.php">Nouvel session</a>
-							<a href="listeSession.php">Liste des sessions</a>
-							<a href="listeUser.php">Liste des utilisateurs</a>
-					  </div>
+  <button class="dropdown-btn">Utilisateur 
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+              <a href="user.php">Nouvel utilisateur</a>
+              
+            </div>
+            
+            <?php include 'include/menu.php';?>
+              
+
 	</div>
 					  
 	</div>

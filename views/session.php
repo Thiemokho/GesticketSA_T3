@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <title>session</title>
   <link rel="stylesheet" href="../public/css/stylesession.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="script.js"></script>
 </head>
 <body>
@@ -13,21 +14,13 @@
               
                  <div class="titre"> <h1 >SESSION</h1> </div> 
 
-                 
-                 <div class="div1">
-                    <div class="vertical-menu">
-                      <a href="#" class="active">Utilisateurs</a>
-                      <div class="dropdown">
-                      <button class="dropbtn" >session</button>
-                      <div class="dropdown-content">
-                        <a href="session.php">Nouvel session</a>
-                        <a href="listeSession.php">Liste des sessions</a>
-                        <a href="listeUser.php">Liste des utilisateurs</a>
+
+                 <?php include 'include/menu.php';?>
+                          
                       </div>
-            </div>
-                      
-            </div>
-                 
+                                
+                      </div>
+                          
 
 
        <!-- logo -->

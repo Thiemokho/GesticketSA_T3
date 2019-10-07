@@ -13,21 +13,11 @@
               
                  <div class="titre"> <h1 >INSCRIPTION</h1> </div> 
 
-                 
-                 <div class="div1">
-                    <div class="vertical-menu">
-                      <a href="#" class="active">Utilisateurs</a>
-                      <div class="dropdown">
-                      <button class="dropbtn" >session</button>
-                      <div class="dropdown-content">
-                        <a href="session.php">Nouvel session</a>
-                        <a href="listeSession.php">Liste des sessions</a>
-                        <a href="listeUser.php">Liste des utilisateurs</a>
-                      </div>
+                 <?php include 'include/menu.php';?>
+
+                                        
             </div>
                       
-            </div>
-                 
 
 
        <!-- logo -->
