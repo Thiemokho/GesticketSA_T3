@@ -2,7 +2,7 @@
 {
     background-color: #f4f9f9;
     
-    width: 100%;
+    width: 80%;
     height: 100%;
 }
 
@@ -35,7 +35,7 @@ h1
 {
     position: absolute;
     top: 60px;
-    left: 272px;
+    left: 400px;
     width: 50%;
     height: 10%;
     font-size: 22px;
@@ -80,17 +80,17 @@ h1
     position: absolute;
     color: #2b9595;
     font-family: Arial;
-    font-size: 25px;
-    top: 252px;
+    font-size: 15px;
+    top: 200px;
     margin-left: 234px;
 }
 
 #input1
 {
     margin-left: 350px;
-    width: 50%;
-    height: 40px;
-    top: 250px;
+    width: 40%;
+    height: 30px;
+    top: 200px;
     position: absolute;
 }
 
@@ -98,52 +98,113 @@ h1
 {
     color: #2b9595;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
+    font-size: 15px;
     margin-left: 30px;
     position: absolute;
-    top: 378px;
+    top: 268px;
     margin-left: 218px;
 }
 
 #input2
 {
     margin-top: 5%;
-    width: 50%;
-    height: 40px;
+    width: 40%;
+    height: 30px;
     position: absolute;
-    top: 300px;
+    top: 200px;
     margin-left: 350px;
 }
 
+#label3
+{
+    color: #2b9595;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-left: 30px;
+    position: absolute;
+    top: 350px;
+    margin-left: 210px;
+}
 
+#input3
+{
+    margin-top: 5%;
+    width: 40%;
+    height: 30px;
+    position: absolute;
+    top: 271px;
+    margin-left: 347px;
+}
 
-.annuler
+#label4
+{
+    color: #2b9595;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-left: 30px;
+    position: absolute;
+    top: 410px;
+    margin-left: 210px;
+}
+
+#input4
+{
+    margin-top: 5%;
+    width: 40%;
+    height: 30px;
+    position: absolute;
+    top: 340px;
+    margin-left: 350px;
+}
+
+#label5
+{
+    color: #2b9595;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-left: 30px;
+    position: absolute;
+    top: 480px;
+    margin-left: 210px;
+}
+
+#input5
+{
+    margin-top: 5%;
+    width: 40%;
+    height: 30px;
+    position: absolute;
+    top: 408px;
+    margin-left: 350px;
+}
+
+.Annuler
 {
     margin-top: 10%;
 }
 
-#annuler
+#Annuler
 {
     background-color: #2b9595;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     position: absolute;
-    top: 500px;
-    left: 30%;
+    top: 350px;
+    left: 35%;
     width: 15%;
     height: 50px;
 }
 
-#connexion
+#Créer
 {
     background-color: #f48322;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     position: absolute;
-    top: 500px;
-    left: 52%;
+    top: 350px;
+    left: 60%;
     width: 15%;
     height: 50px;
 }
@@ -254,4 +315,7 @@ h4
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
+  }
+  .formulaire{
+      margin-left: 120px;
   }

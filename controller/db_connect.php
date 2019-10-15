@@ -4,7 +4,7 @@
          //b) Selectionner BD
          try {
  
-            $pdo = new PDO($dsn, 'root' , '09');
+            $pdo = new PDO($dsn, 'thiemokho' , '-Penda92');
             
             }
             catch (PDOException $exception) {
