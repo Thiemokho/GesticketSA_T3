@@ -35,15 +35,15 @@
 
             <img src="img/sonatel.png" class="img-fluid fixed-bottom mb-3 ml-2" >
         </div>
-        <div class="col pt-2" style='background:url("img/bg1.jpg")'>
-        <h2 class="text-center text-primary">INSCRIPTION</h2>
+        <div class="col pt-2" style='background:url("img/bg1.jpg"); background-size:cover;'>
+        <h2 class="text-primary" style="margin-left:28%; font-size:40px;">INSCRIPTION</h2>
 
         <!-- Default form register -->
-<form class="text-center border border-light p-5" action="#!">
+  <div class="table"><form class="text-center border border-light p-5 col-5 mx-5 " action="#!" style="background: black;opacity: 0.3;">
 
   
 
-    <div class="form-row mb-4">
+    <div class="form-row mb-4" >
         <div class="col">
             <!-- First name -->
             <input type="text" id="defaultRegisterFormFirstName" class="form-control" placeholder="Nom">
@@ -82,6 +82,7 @@
  
 
 </form>
+</div>
 <!-- Default form register -->
          
                
@@ -114,6 +115,22 @@ body, html {
     max-width: 50%;
     height: 13%;
 }
+
+.table
+{
+    width:80%;
+    position:absolute;
+    left:20%;
+    color:orange;
+}
+
+.bg-primary {
+
+    background-color: #2b9595 !important;
+
+}   
+
+.text
 
 
 </style>
